@@ -7,7 +7,7 @@
     - При PASS светодиод светит непрерывно -> прерывания не приходят
 
 
-Код для арзуино находится в файле `bruteforce/bruteforce.ino`
+Код для ардуино находится в файле [`bruteforce.ino`](https://github.com/trimesh33/r3dc4t/blob/main/bruteforce/bruteforce.ino)
 
 ## Подключение к Arduino:
 ![Подключение](https://github.com/trimesh33/r3dc4t/blob/main/bruteforce/img2.jpg)
