@@ -1,6 +1,9 @@
 # Считывание прошивки напрямую с Flash-памяти
 ![подключение](https://github.com/trimesh33/r3dc4t/blob/main/direct_read/img1.jpg)
 
+Выпаяли флешку W25Q16JV с платы и припаяли лакированным проводом 0.2мм к Arduino.
+![кишки](https://github.com/trimesh33/r3dc4t/blob/main/direct_read/img2.jpg)
+
 [Исходный код](https://github.com/trimesh33/r3dc4t/blob/main/direct_read/direct_read.ino)
 
 # Подключение
