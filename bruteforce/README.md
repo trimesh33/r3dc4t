@@ -6,6 +6,9 @@
     - При FAIL светодиод несколько раз мигает -> в течениe timeout приходят прерывания на изменение состояния линии 1-Wire
     - При PASS светодиод светит непрерывно -> прерывания не приходят
 
+
+Код для ардуино находится в файле [`bruteforce.ino`](https://github.com/trimesh33/r3dc4t/blob/main/bruteforce/bruteforce.ino)
+
 ## Подключение к Arduino:
 ![Подключение](https://github.com/trimesh33/r3dc4t/blob/main/bruteforce/img2.jpg)
 - Pin2 - Encoder A
@@ -13,6 +16,8 @@
 - Pin4 - Encoder button
 - Pin5 - RGB led data
 - Pin6 - MCU reset
+
+Пришлось выпаять энкодер чтобы он не мешал генерации сигналов.
 
 Перед каждой проверкой пароля МК резетается, чтобы не тратить время зря и состояние МК было каждый раз одно и то же.
 
